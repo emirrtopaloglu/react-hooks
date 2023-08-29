@@ -21,23 +21,23 @@ const App = () => {
 };
 ```
 
-### `.get(key: string)`
+`.get(key: string)`
 
 Returns the value of the query string parameter specified by `string`.
 
-### `.getAll(key: string)`
+`.getAll(key: string)`
 
 Returns an object containing all query string parameters.
 
-### `.set(key: string, value: string)`
+`.set(key: string, value: string)`
 
 Sets the value of the query string parameter specified by `string` to `string`.
 
-### `.has(key: string)`
+`.has(key: string)`
 
 Returns `true` if the query string contains the parameter specified by `string`.
 
-### `.size`
+`.size`
 
 Returns the number of query string parameters.
 
